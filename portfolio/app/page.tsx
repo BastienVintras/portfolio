@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Header } from "./_components/header";
 import { Hero } from "./_components/hero";
 import { Spacing } from "./_components/spacing";
