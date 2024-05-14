@@ -165,7 +165,7 @@ export const Status = () => {
 
         <Card className="p-4 flex-1">
           <p className="flex justify-center text-4xl mb-5">Mon Cv</p>
-          <iframe src="/cv.pdf" className="m-auto"></iframe>
+          <iframe src="/imgcv.png" className="m-auto"></iframe>
           <Link href="/cv.pdf" target="_blank" passHref download="MonCV" className="text-xl text-white flex justify-center mt-2" >
           {/* <CvIcon size={20} className="inline mr-3 ml-5 "/> */}
          Télécharger mon CV
