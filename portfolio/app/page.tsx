@@ -6,6 +6,7 @@ import { Status } from "./_components/status";
 export default function Home() {
   return (
     <main >
+      
 <Header/>
 
 <Spacing size="md"/>

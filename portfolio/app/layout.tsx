@@ -5,6 +5,7 @@ import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 
 import { cn } from "@/lib/utils";
+import { Head } from "next/document";
 
 
 const AnekTelugu = Anek_Telugu({ 
@@ -24,6 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full">
+      <head>
+      <link rel="icon" href="/favicon.ico" /> 
+
+      </head>
       <body className={cn
         (GeistSans.variable,
          GeistMono.variable, 
