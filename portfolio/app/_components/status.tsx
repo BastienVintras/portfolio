@@ -176,7 +176,7 @@ export const Status = () => {
         <Card className="p-4 flex-1">
           <p className="flex justify-center text-4xl">Contactez moi</p>
           <ul className="p-5">
-            <li className=" text-xl">
+            <li className=" text-lg">
               <GmailIcon size={20} className="inline -mt-1" />
               <Link
                 className="text-white ml-3"
@@ -186,8 +186,8 @@ export const Status = () => {
                 bastvint@gmail.com
               </Link>
             </li>
-            <li className="mt-4 text-xl">
-              <LinkedinIcon size={20} className="inline -mt-1" />
+            <li className="mt-4 text-lg md: flex items-center">
+              <LinkedinIcon size={20} className="md:inline -mt-1 sm:-mt-3 md:-mt-1 lg: xl:-mt-1   " />
               <Link
                 className="text-white ml-3"
                 href="https://www.linkedin.com/in/bastien-vintras-50b125270/"
@@ -202,7 +202,7 @@ export const Status = () => {
       </div>
       
     </div>
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap mb-5">
   <div className="w-1/2 md:w-1/4 p-4">
     <ReactIcon className="animate-spin-slow w-full" size={100} />
   </div>
@@ -218,6 +218,7 @@ export const Status = () => {
 </div>
 <Spacing/>
 <Footer/>
+
     </Section>
   );
 };
