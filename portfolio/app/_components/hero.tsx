@@ -24,7 +24,7 @@ export const Hero = ( ) => {
         <h2 className="text-4xl text-white font-caption md:text-5xl text-center">Apprenti Developpeur Full Stack</h2>
         <Spacing size="sm"/>
         <h3 className="text-2xl">
-        Après plusieurs années d’expérience en restauration, j’ai décidé de me consacrer à ma passion pour le développement web . Je prépare donc un BAC +3 RNCP niveau VI en alternance . Après 9 mois de formation au sein de l’école ADA Tech School <AdaIcon className=" inline w-20 -mt-2"/>, je recherche une alternance à partir de Juillet 2024 .
+        Après plusieurs années d’expérience en tant que chef de cuisine, j’ai décidé de me lancer avec passion dans le développement web . Je prépare donc un BAC +3 RNCP niveau VI en alternance . Après 9 mois de formation au sein de l’école ADA Tech School <AdaIcon className=" inline w-20 -mt-2"/>, je recherche une alternance à partir de Juillet 2024 .
         </h3>
     </div>
     <div className="flex-[2] max-md:m-auto ml-auto">
