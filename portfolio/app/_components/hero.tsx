@@ -29,7 +29,7 @@ export const Hero = ( ) => {
     </div>
     <div className="flex-[2] max-md:m-auto ml-auto">
         <Image
-        src="/profil4.jpg"
+        src="/profil5.jpg"
         alt="photo de profil"
         className="w-full h-auto rounded-full max-w-xs max-md:w-56"
         width={200}
