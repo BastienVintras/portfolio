@@ -63,7 +63,7 @@ export const Status = () => {
             <Spacing size="sm" />
             <Card className="flex max-md:flex-col md:flex-row  items-center gap-4">
               <div className="flex-1 text-white text-center py-1 text-xl">
-                After Ada
+                Extension navigateur Chrome Météo
                 <div className="w-full flex justify-center">
                   <video
                     controls
@@ -93,7 +93,7 @@ export const Status = () => {
             <Spacing size="sm" />
             <Card className="flex max-md:flex-col md:flex-row  items-center gap-4">
               <div className="flex-1 text-white text-center py-1 text-xl">
-                After Ada
+                Projet site e-commerce
                 <div className="w-full flex justify-center">
                   <video
                     controls
