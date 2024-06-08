@@ -81,7 +81,7 @@ export const Status = () => {
                     <Code>CSS</Code>
                   </p>
                   <p className="">
-                    Création d'une extention de navigateur Chrome permettant
+                    Création d'une extension de navigateur Chrome permettant
                     d'avoir la météo par géolocalisation ou par recherche de
                     villes <br />
                     Utilisation de l'API OpenWeather <br />
@@ -123,7 +123,7 @@ export const Status = () => {
                       <Code>Mongoose</Code>{" "}
                     </li>
                     <li>
-                      Intégration des fonctionnalité Crud pour la gestion des
+                      Intégration des fonctionnalités Crud pour la gestion des
                       données
                     </li>
                   </ul>
