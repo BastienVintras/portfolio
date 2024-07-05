@@ -40,7 +40,7 @@ export const Hero = ( ) => {
             height={200}
           />
         </div>
-        <div className="absolute top-0 left-0 transform md:translate-x-64 md:translate-y-64 z-0">
+        <div className="absolute top-0 left-0 transform md:translate-x-64 md:translate-y-64 z-0 hidden md:block">
           <Image
             src="/chefdecode7.png"
             alt="chefdecode"
