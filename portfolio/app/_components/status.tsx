@@ -17,11 +17,11 @@ import { Footer } from "./footer";
 export const Status = () => {
   return (
     <Section>
-    <div className=" flex max-md:flex-col items-start gap-4 py-5 ">
+    <div className=" flex max-md:flex-col items-start gap-4 ">
       <div className="flex-[3] w-full ">
         <Card className=" p-4 flex flex-col gap-2 w-full ">
           <div className="text-lg text-muted-foreground">
-            <p className="flex justify-center mb-5 text-4xl">Projets</p>
+            <p className="flex justify-center mb-5 text-4xl text-secondary">Projets</p>
             <Card className="flex max-md:flex-col md:flex-row  items-center gap-4">
               <div className="flex-1 text-white text-center py-1 text-xl">
                 After Ada
@@ -37,11 +37,11 @@ export const Status = () => {
               </div>
               <div className="flex-[3] w-full flex items-center justify-center">
                 <div className=" mx-auto text-left ml-3">
-                  <p className="">
+                  <p className="text-gray-200">
                     Stack : <Code>Nextjs</Code> <Code>TypeScript</Code>{" "}
                     <Code>Tailwind</Code> <Code>Firebase</Code>
                   </p>
-                  <p>
+                  <p className="text-primary">
                     Création d'une application permettant le partage de projets
                     pour les éleves de Ada Tech School
                     <br />
@@ -76,11 +76,11 @@ export const Status = () => {
               </div>
               <div className="flex-[3] w-full flex items-center justify-center">
                 <div className=" mx-auto text-left ml-3">
-                  <p className="">
+                  <p className="text-gray-200">
                     Stack : <Code>HTML</Code> <Code>JavaScript</Code>{" "}
                     <Code>CSS</Code>
                   </p>
-                  <p className="">
+                  <p className="text-primary">
                     Création d'une extension de navigateur Chrome permettant
                     d'avoir la météo par géolocalisation ou par recherche de
                     villes <br />
@@ -104,27 +104,26 @@ export const Status = () => {
                   />
                 </div>
               </div>
-              <div className="flex-[3] w-full flex items-center justify-center">
+              <div className="flex-[3] w-full flex items-center justify-center text-primary">
                 <div className=" mx-auto text-left ml-3">
-                  <p>
+                  <p className="text-gray-200">
                     Stack : <Code>Reactjs</Code> <Code>BootStrap</Code>{" "}
                     <Code>Nodejs</Code> <Code>Mongodb</Code>
                   </p>
-                  <p className="">
+                  <p className="text-primary">
                     Participation à la création d'un site de e-commerce coté
-                    back :
+                    back:
                   </p>
                   <ul>
                     <li>
-                      mise en place d'un serveur <Code>Express</Code>
+                      - mise en place d'un serveur <Code>Express</Code>
                     </li>
                     <li>
-                      Création et schématisation d'une base de données avec{" "}
+                      - Création et schématisation d'une base de données avec{" "}
                       <Code>Mongoose</Code>{" "}
                     </li>
                     <li>
-                      Intégration des fonctionnalités Crud pour la gestion des
-                      données
+                      - Intégration des fonctionnalités Crud pour la gestion des données
                     </li>
                   </ul>
                   <p>Projet réalisé en groupe de 5</p>
@@ -137,8 +136,8 @@ export const Status = () => {
       </div>
       <div className="flex-[2] flex flex-col h-full w-full gap-4">
         <Card className="p-4 flex-1">
-          <p className="flex justify-center text-4xl">Ma formation</p>
-          <p className="mt-4 text-lg text-muted-foreground">
+          <p className="flex justify-center text-4xl text-secondary">Ma formation</p>
+          <p className="mt-4 text-lg text-muted-foreground text-primary">
             L'école <AdaIcon className="inline w-20 -mt-3" /> est une
             institution inclusive qui offre une formation structurée de 9 mois,
             axée sur l'apprentissage actif par le biais de projets de groupe.
@@ -164,7 +163,7 @@ export const Status = () => {
         {/* <Spacing size="xs"/> */}
 
         <Card className="p-4 flex-1">
-          <p className="flex justify-center text-4xl mb-5">Mon Cv</p>
+          <p className="flex justify-center text-4xl mb-5 text-secondary">Mon Cv</p>
           <iframe src="/imgcv.png" className="m-auto"></iframe>
           <Link href="/cv.pdf" target="_blank" passHref download="MonCV" className="text-xl text-white flex justify-center mt-2" >
           {/* <CvIcon size={20} className="inline mr-3 ml-5 "/> */}
@@ -174,7 +173,7 @@ export const Status = () => {
         {/* <Spacing size="xs"/> */}
 
         <Card className="p-4 flex-1">
-          <p className="flex justify-center text-4xl">Contactez moi</p>
+          <p className="flex justify-center text-4xl text-secondary">Contactez moi</p>
           <ul className="p-5">
             <li className=" text-lg">
               <GmailIcon size={20} className="inline -mt-1" />
