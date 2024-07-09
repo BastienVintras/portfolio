@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="fr" className="h-full">
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/toque.ico" />
         {/* Google Tag Manager */}
         <Script id="gtm-script" strategy="afterInteractive" dangerouslySetInnerHTML={{
           __html: `
