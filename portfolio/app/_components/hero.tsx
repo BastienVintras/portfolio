@@ -31,6 +31,15 @@ export const Hero = ( ) => {
     </div>
     
     <div className="flex-[2] max-md:m-auto ml-auto relative">
+    <div className="absolute bottom-36 left-0 transform md:translate-x-20 md:translate-y-14 z-0 hidden md:block">
+          <Image
+            src="/toquegris.png"
+            alt="chefdecode"
+            className="w-full h-auto max-w-xs max-md:w-56"
+            width={300}
+            height={300}
+          />
+        </div>
         <div className="relative z-10">
           <Image
             src="/profil8.png"
